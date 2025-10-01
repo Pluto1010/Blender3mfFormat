@@ -1,0 +1,32 @@
+# Blender 3MF Format Fix - Python Dependencies
+
+# Core XML processing for 3MF files
+lxml>=4.9.0
+
+# ZIP file handling (3MF files are ZIP archives)
+zipfile36>=0.1.0
+
+# Mathematical operations and array handling
+numpy>=1.21.0
+
+# XML parsing alternative
+xml2dict>=0.2.2
+
+# File path manipulation
+pathlib2>=2.3.0
+
+# Logging utilities
+colorlog>=6.0.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Type checking
+mypy>=0.991
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
